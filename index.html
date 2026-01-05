@@ -26,7 +26,7 @@
             color: #ffffff;
             font-size: 3.5rem;
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
             animation: fadeInDown 1s ease-in-out;
         }
@@ -36,16 +36,17 @@
             border-radius: 20px;
             padding: 20px;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            max-width: 900px;
+            max-width: 500px;
             width: 100%;
             animation: fadeInUp 1s ease-in-out;
         }
 
         video {
             width: 100%;
-            height: auto;
+            max-height: 70vh;
             border-radius: 10px;
             display: block;
+            object-fit: contain;
         }
 
         @keyframes fadeInDown {
